@@ -1,0 +1,7 @@
+fixtures:
+  repositories:
+    java: git://github.com/puppetlabs/puppetlabs-java.git
+    wget: git://github.com/maestrodev/puppet-wget.git
+    stdlib: git://github.com/puppetlabs/puppetlabs-stdlib.git
+  symlinks:
+    zookeeper: "#{source_dir}"
